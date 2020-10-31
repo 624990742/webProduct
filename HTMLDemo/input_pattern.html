@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>patter属性</title>
+</head>
+<body>
+
+     <!--在HTML5中，对input元素使用pattern属性。并且将属性设置为某个格式的正则表达式。在提交的时候会对这些内容进行检查。-->
+     <!--看内容是否是符合给定格式。不符合不允许提交，同时也会在浏览器中提示文字。-->
+ <!--action中放jsp文件的路径-->
+<form>
+    请输入内容
+    <input pattern="[A-Z{3}]" name="part">
+    <input type="submit">
+</form>
+
+</body>
+</html>

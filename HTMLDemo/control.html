@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签的control属性介绍</title>
+</head>
+<body>
+
+<script>
+    function setInputValue() {
+        var testLabel = document.getElementById("testLabel")
+        var textBxo = testLabel.control;
+        textBxo.value = "1000000";//设置默认值
+    }
+
+</script>
+
+<form>
+    <label id="testLabel">
+        北京市海淀区的邮编：
+         <input id="text_zip" maxlength="6" >
+         <small>请输入六位数</small>
+    </label>
+    <input type="button" value="设置默认值" onclick="setInputValue()">
+
+</form>
+
+
+</body>
+</html>
