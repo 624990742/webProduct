@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--1.url类型-->
+<!--<input name="url"  type="url" value="https://www.baidu.com/">-->
+
+<!--表单有验证的作用&ndash;&gt;-->
+<!--<form>-->
+    <!--<input name="url"  type="url" value="https://www.baidu.com">-->
+    <!--<input  type="submit" value="提交">-->
+
+<!--</form>-->
+<br/>
+
+<!--3.date类型-->
+<input name="date" type="date" value="" >
+
+<!--4.time类型-->
+<br/>
+<input  name="time"  type="time" value="" >
+
+<!--5.datetime类型-->
+<input   name="datetime" type="datetime-local" value="" >
+
+
+<!-- 6.moth 月份-->
+<br/>
+<input   name="moth" type="month" value="2020-10-9" >
+
+<br/>
+<!--  7.week  周-->
+<input   name="week" type="week" value="" >
+
+<!--
+  8.number
+  value 默认值
+  min 最小值
+  max 最大值
+  step 每次增加的数值
+-->
+<br/>
+<br/>
+<input   name="number" type="number" value="15" min="10" max="100" step="2">
+
+<br/>
+<br/>
+<!--计算器-->
+<script>
+    function sum() {
+        //方法一：是将两个变量的值拼接出来一个结果
+        // var n1 = document.getElementById('num1').value;
+        // var n2 = document.getElementById('num2').value;
+        // document.getElementById('result').valueAsNumber = n1 + n2;
+
+
+        //方法二：结果是两个数的和
+        var n1 = document.getElementById('num1').valueAsNumber;
+        var n2 = document.getElementById('num2').valueAsNumber;
+        document.getElementById('result').valueAsNumber = n1 + n2;
+
+
+
+    }
+
+
+
+</script>
+
+
+<form>
+    <input  type="number" id="num1"/>
+
+    <input  type="number" id="num2"/>
+
+    <input  type="number" id="result" readonly/>
+
+    <input  type="button" value="计算" onclick="sum()"/>
+
+
+</form>
+
+
+<!--range 元素(类似于ios 中的滑块)-->
+<input   name="range"  type="range"  value="25"  min="0" max="100" step="5" />
+
+<!--search 元素-->
+<input name="search" type="search" />
+
+<!-- tel 元素-->
+
+<input name="tel" type="tel" />
+
+
+<input name="color" type="color" onchange="document.body.style.backgroundColo = document.getElementById('currentColor').textContent = this.value;"/>
+
+<span id="currentColor"></span>
+
+<!--output 元素的追加-->
+
+<br/>
+<script>
+    function value_change() {
+        var number = document.getElementById("range").value;
+        document.getElementById("output").value = number;
+    }
+
+</script>
+
+
+<form  id="testform">
+    <input  id="range"  type="range" min="0" max="100" step="5" value="10" onchange="value_change()"/>
+    <output id="output">10</output>
+
+</form>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
