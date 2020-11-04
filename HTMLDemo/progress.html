@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function btn() {
+
+    }
+
+    function updateProgress(newValue) {
+        var progressBar = document.getElementById('p');
+        progressBar.value = newValue;
+        progressBar.getElementsByTagName('span')[0].textContent = newValue;
+    }
+    
+</script>
+
+
+<section>
+    <h2>pregress元素的使用</h2>
+    <p>完成的百分比<progress id="p" max="100"><span>0</span></progress>
+    <input type="button" onclick="" value="点击">
+</section>
+
+</body>
+</html>

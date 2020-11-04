@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35077caf-a442-44bb-9a85-8c307c9e9ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTMLDemo/iputTestDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLDemo/yanzhengbiaodan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLDemo/progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTMLDemo/testDemo1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTMLDemo/yanzhengbiaodan.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTMLDemo/testDemo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="337">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#details#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTMLDemo/progress.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -37,6 +49,7 @@
       <find>AD</find>
       <find>type</find>
       <find>search</find>
+      <find>hidden</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,22 +67,22 @@
         <option value="$PROJECT_DIR$/HTMLDemo/input/index.html" />
         <option value="$PROJECT_DIR$/HTMLDemo/index.html" />
         <option value="$PROJECT_DIR$/HTMLDemo/yanzhengbiaodan.html" />
+        <option value="$PROJECT_DIR$/HTMLDemo/testDemo1.html" />
+        <option value="$PROJECT_DIR$/HTMLDemo/progress.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="233" />
-    <option name="width" value="1283" />
-    <option name="height" value="769" />
+    <option name="x" value="226" />
+    <option name="y" value="375" />
+    <option name="width" value="1173" />
+    <option name="height" value="606" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,13 +104,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604325583761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604412031624" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -133,18 +148,19 @@
       <updated>1603807050661</updated>
       <workItem from="1603807054314" duration="1760000" />
       <workItem from="1603976521954" duration="2134000" />
-      <workItem from="1604322685549" duration="2845000" />
+      <workItem from="1604322685549" duration="2893000" />
+      <workItem from="1604410846709" duration="1220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6739000" />
+    <option name="totallyTimeSpent" value="8007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="233" width="1283" height="769" extended-state="0" />
+    <frame x="188" y="517" width="1181" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24657534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25636524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -250,10 +266,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLDemo/testDemo1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTMLDemo/yanzhengbiaodan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLDemo/testDemo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#details#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLDemo/progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--
+figure 元素以及 单张
+figcaption 多张元素
+<!--&ndash;&gt;-->
+ <!--<figure>-->
+     <!--<img src="../imagesRecource/ttest.jpg" height="374" width="500" alt="码农"/>-->
+     <!--<img src="../imagesRecource/ttest.jpg" height="374" width="500" alt="码农"/>-->
+     <!--<img src="../imagesRecource/ttest.jpg" height="374" width="500" alt="码农"/>-->
+     <!--<figcaption>美女</figcaption>-->
+ <!--</figure>-->
+
+  <!-- details  元素和summary元素 -->
+
+<script>
+
+    function onclick(detail) {
+        var p = document.getElementById('p');
+        if (detail.open){
+            p.style.visibility = "hidden";
+        }else{
+            p.style.visibility = "visible";
+        }
+    }
+
+</script>
+
+
+<details id="detail" onclik = "onclick(this)">
+   <summary>速度与激情</summary>
+    <p id="p" style="visibility: hidden">你好么，谢谢大大啊啊撒dada</p>
+
+</details>
+
+<!-- mark元素添加文字高亮 -->
+<p> 这你大当家打饿了就大额和大额和<mark>测试</mark> </p>
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
